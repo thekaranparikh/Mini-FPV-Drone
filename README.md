@@ -41,3 +41,55 @@ The goal was to create a **lightweight, affordable** drone using easy-to-source 
 ---
 
 ## 📂 Project Structure
+
+
+---
+
+## 📦 Bill of Materials
+| Part | Quantity | Notes |
+|------|----------|-------|
+| 615 coreless motor | 4 | 37,000 RPM |
+| 31mm 4-blade props | 4 | High lift |
+| Arduino Nano | 1 | Flight controller |
+| NRF24L01+ PA+LNA | 1 | Radio module |
+| LiPo 380mAh 3.7V | 2 | Series connection |
+| 3D-printed frame | 1 | PLA/ABS |
+| Prop guards | 4 | Optional safety |
+
+---
+
+## 🔌 Wiring Diagram
+![Wiring Diagram](docs/wiring-diagram.png)  
+*(See `docs/` folder for high-resolution version)*
+
+---
+
+## 🛠 Build Instructions
+1. **3D Print the Frame** – STL files in `hardware/`
+2. **Mount the Motors** – Secure using motor mounts
+3. **Assemble Electronics** – Follow wiring diagram
+4. **Flash Firmware** – Upload `firmware/main.ino` to Arduino Nano
+5. **Test Without Props** – Verify motor direction & connections
+6. **Attach Props & Fly** – Tune PID if needed
+
+---
+
+## 🎥 Demo Video
+[▶ Watch the Drone in Action](https://youtu.be/your-video-link)  
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License** — see [`LICENSE`](LICENSE) for details.
+
+---
+
+## 💬 Contributing
+Got ideas for improvements? Fork this repo, make changes, and submit a pull request!  
+Issues & suggestions are welcome.
+
+---
+
+> ⚠️ **Disclaimer:** This drone has sharp, fast-moving propellers. Fly responsibly and comply with your local laws.
+
+
